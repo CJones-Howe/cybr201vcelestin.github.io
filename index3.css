@@ -1,44 +1,145 @@
+* {
 
+	margin : 0 ;
+	padding: 0 ;
+}
 
 body {
-	font-family: Ariel, sans-serif;
+	font-family: Arial, sans-serif ;
+	background-color: #ff99cc ;
+	text-align : center ;
 
+}
+
+header {
+
+	background-color: #ffccf2 ;
+	color : white ;
+	padding: 15px ;
+	
 }
 
 .topnav {
 
 	display: flex;
-/*	justify-content: space-between; */
+	justify-content: center ;
 	align-items:center;
 
 }
 
-.nav-links {
+.topnav-links {
 
+	list-style: none;
 	link-style: none;
-	display: flex;
+	display: flex ;
+	justify-content: center ;
+
 
 }
 
-.nav-links li {
+.topnav-links li {
+
 	margin: 0 45px;
-}
-
-@media (max-width: 760 px) {
-.nav-links {
-
-	flex-direction: column;
-	position: absolute;
-	top: 60px;
-	left: 0;
-	width: 100%;
-	padding: 10px 0;
-
-}
-.nav-links li {
-
-	text-align: center;	
+	text-align: center;
 	
 
 }
+
+.topnav-links a {
+
+	color : hotpink ;
+	text-decoration: none;
+	font-size: 20 px ;
+
+}
+
+.topnav-links a:hover {
+
+	color : #ff3399 ;
+	font-size: 22px ;
+}
+
+ /* .topnav-links a:visited { THIS IS COMMENTED OUT RN
+
+	color: red ;
+
+} */
+
+.content {
+
+	display : flex ;
+	padding: 20px ;
+	background-color: white ;
+	
+}
+
+.box1 {
+
+	background-color: #ff99c2 ;
+	padding: 15px ;
+	width: 100%;
+	text-align: center;	
+
+}
+
+.box2 {
+
+	background-color: #e6ccff ;
+	padding: 15px ;
+	width: 100%;
+	text-align: center;	
+
+}
+
+.box3 {
+
+	background-color: #ffccdd ;
+	padding: 15px ;
+	width: 100%;
+	text-align: center;	
+
+}
+
+
+@media (max-width: 760px) {
+
+.topnav-links {
+
+		flex-direction: column;
+
+
+	}
+
+.content {
+
+		flex-direction: column;
+	
+		padding: 10px 0;
+
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
