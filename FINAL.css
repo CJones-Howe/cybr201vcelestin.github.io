@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff0f5;
+}
+
+.sidebar {
+  width: 150px;
+  height: 100%;
+  background-color: #ffccdd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  background-color: #ff99bb;
+}
+
+.main {
+  margin-left: 170px;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+img.clothing {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img.clothing:hover {
+  transform: scale(1.05);
+}
+
+.highlighted {
+  box-shadow: 0 0 15px 5px #ff66b2;
+  border: 3px solid #ff66b2;
+  border-radius: 10px;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pinterest-text {
+  font-size: 16px;
+  color: #ff66b2;
+}
+
+.pinterest-link {
+  color: #ff66b2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.done-link {
+  font-size: 18px;
+  background-color: #ff66b2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
